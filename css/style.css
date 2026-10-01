@@ -6,13 +6,22 @@ header {
     font-size: larger;
 }
 
-body {
-    margin: 0px;
+main {
     background-color: #aa6c52;
+    margin: 0px;
 }
 
-main {
-    margin: 20px;
+.intro-row {
+    display: flex;
+    align-items: stretch;
+}
+
+.intro-row > [class*='col-'] {
+    display: flex;
+}
+
+.intro-row .card {
+    width: 100%;
 }
 
 @font-face {
@@ -23,17 +32,6 @@ main {
 
 * {
     font-family: PK_Uttaradit;
-    word-break: keep-all;
-}
-
-section {
-    border-radius: 20px;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    background-color: #e7e7e7;
-    margin-bottom: 15px;
 }
 
 h2 {
@@ -49,6 +47,12 @@ footer {
     font-size: larger;
 }
 
-a {
+.a-hide {
     color: rgb(0, 100, 200);
+}
+
+@media (min-width: 600px) {
+    .MaxW {
+        max-width: 600px;
+    }
 }
