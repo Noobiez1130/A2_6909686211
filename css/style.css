@@ -1,0 +1,54 @@
+header {
+    text-align: center;
+    background-color: #242424;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: larger;
+}
+
+body {
+    margin: 0px;
+    background-color: #aa6c52;
+}
+
+main {
+    margin: 20px;
+}
+
+@font-face {
+    font-family: PK_Uttaradit;
+    src: url(../media/font/PK\ Uttaradit-Medium.otf);
+    src: url(../media/font/PK\ Uttaradit-Medium.ttf);
+}
+
+* {
+    font-family: PK_Uttaradit;
+    word-break: keep-all;
+}
+
+section {
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: #e7e7e7;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #242424;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: larger;
+}
+
+a {
+    color: rgb(0, 100, 200);
+}
